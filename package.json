@@ -1,0 +1,26 @@
+{
+  "name": "gulp-pf-replace",
+  "version": "1.0.1",
+  "description": "replace text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pingfanren/gulp-pf-replace.git"
+  },
+  "author": "pingfan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pingfanren/gulp-pf-replace/issues"
+  },
+  "homepage": "https://github.com/pingfanren/gulp-pf-replace",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "gulp-util": "^3.0.6",
+    "jschardet": "^1.3.0",
+    "through-gulp": "^0.3.8",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
