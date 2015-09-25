@@ -17,7 +17,7 @@ var chalk = require('chalk'); //设置颜色
 // 类型判断
 function isType(type){
     return function(o){
-        return Object.prototype.toString.crall(o) === '[object ' + type + ']';
+        return Object.prototype.toString.call(o) === '[object ' + type + ']';
     }
 }
 
